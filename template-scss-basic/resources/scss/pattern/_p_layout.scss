@@ -49,15 +49,20 @@
         justify-content: space-between;
         .util {
             display: flex;
+            gap: $spacer-3;
             a {
                 display: flex;
                 align-items: center;
                 height: 100%;
-                padding: 0 $spacer-3;
+                &:nth-child(3) {
+                    display: none;
+                }
+                
             }
         }
     }
 }
+
 
 #gnb {
     display: none;
