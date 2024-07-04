@@ -366,9 +366,9 @@ legend {
 }
 #header .head-in .util a {
   display: flex;
+  align-items: center;
   height: 100%;
   padding: 0 0.8rem;
-  align-items: center;
 }
 
 #gnb {
