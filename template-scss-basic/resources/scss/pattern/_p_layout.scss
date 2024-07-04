@@ -36,10 +36,12 @@
 }
 
 #header{
+    
     border-bottom: 1px solid $gray-40;
     .inner{
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
+        
     }
     .head-etc{
         display: none;
@@ -47,6 +49,15 @@
     .head-in{
         display: flex;
         justify-content: space-between;
+        .util{
+            display: flex;
+            a {
+                display: flex;
+                height: 100%;
+                padding: 0 $spacer-3;
+                align-items: center;
+            }
+        }
     }
 }
 
