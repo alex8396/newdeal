@@ -587,13 +587,16 @@ legend {
   flex: 1;
 }
 
-.font-test {
-  font-size: 1.1765rem;
-  color: red;
+#footer {
+  padding: 50px 0;
 }
-.font-test span {
-  font-size: 3.2rem;
-  font-family: "CWDangamAsac-Bold";
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+.sec-g {
+  padding: 150px 0;
 }
 
 @media (min-width: 600px) {
@@ -615,9 +618,25 @@ legend {
 .swiper .swiper-slide img {
   display: block;
   width: 100%;
-  height: calc(100vh - 117px);
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 50%;
-     object-position: 0 50%;
+}
+
+.slide-intro .swiper-slide img {
+  height: calc(70vh - 117px);
+}
+.slide-intro .slide-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background: blue;
+}
+
+@media (min-width: 1024px) {
+  .slide-intro .slide-txt {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
