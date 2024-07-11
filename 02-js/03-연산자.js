@@ -71,3 +71,21 @@ function isCat(text) {
 
 console.log(isCat('고양이')); // 고양이 맞아!
 console.log(isCat('강아지')); // 고양이 아냐!
+
+//  전개 연산자
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const arr3 = [...arr1, ...arr2];
+console.log(arr3); // [1, 2, 3, 4, 5, 6]
+
+const obj1 = {
+    a:1,
+    b:2,
+};
+
+const obj2 = {
+    ...obj1,
+    c:3,
+};
+
+console.log(obj2); // { a: 1, b: 2, c: 3 }
