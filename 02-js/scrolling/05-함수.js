@@ -18,3 +18,11 @@ const hello2 = function() {
 };
 
 hello2(); // 아 내일 쉰다
+
+// 매개변수 패턴
+function sum(x,y=0) {
+    return x+y;
+}
+
+console.log(sum(10, 20)); // 30
+console.log(sum(3));  // 3
